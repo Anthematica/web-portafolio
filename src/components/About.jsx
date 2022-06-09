@@ -20,7 +20,7 @@ const About = () => {
             <p>
               I am passionate about building great software that improves the
               lives of those around me. Besides software development, I
-              am a science enthusiast, particularly astronomy.
+              am a science enthusiast, particularly Astronomy.
             </p>
           </div>
         </div>
