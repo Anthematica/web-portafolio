@@ -11,12 +11,12 @@ export const Contact = () => {
         action="https://getform.io/f/b396e1da-2e7d-4f4a-801e-46a4ecd0a1fc"
         className="flex flex-col max-w-[600px] w-full"
       >
-        <div className="pb-8">
+        <div className="pt-10">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email - fernando21112000@gmail.com
+           Submit the form below or shoot me an email - fernando21112000@gmail.com
           </p>
         </div>
         <input
