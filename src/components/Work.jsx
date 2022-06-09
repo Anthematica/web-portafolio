@@ -1,10 +1,18 @@
 import React from "react";
-import WorkImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
+import Nfts from "../assets/NFts.png";
+import RickMorty from "../assets/Rick_and_Morty.png";
+import LinkShortener from "../assets/ShorterLink.png";
+import { FaGithub } from "react-icons/fa";
+import Chat from "../assets/Chat.png";
+import Portafolio from "../assets/Portafolio.png";
+import Todo from "../assets/TodoVue.png";
 
 export const Work = () => {
   return (
-    <div name="projects" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="projects"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
@@ -17,18 +25,18 @@ export const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/* Grid Item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Nfts})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Laravel Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/LaravelNfts">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -36,18 +44,18 @@ export const Work = () => {
           </div>
           {/* Grid item */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${RickMorty})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Vanilla Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/rick_and_morty">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
@@ -55,7 +63,7 @@ export const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${LinkShortener})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -64,16 +72,16 @@ export const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/URLShortener">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Chat})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -82,16 +90,16 @@ export const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/chats">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Portafolio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -100,27 +108,27 @@ export const Work = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/web-portafolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${Todo})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Vue Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/Anthematica/TodoAPPVue3">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
+                    <FaGithub size={30} />
                   </button>
                 </a>
               </div>
