@@ -28,3 +28,10 @@
         hsla(242, 74%, 61%, 0.8)   
     )!important;
 }
+
+/* @media (max-width: 768px) {
+    .custom-social-icons {
+        bottom: 0px;
+        left: 50%;
+    }
+} */
