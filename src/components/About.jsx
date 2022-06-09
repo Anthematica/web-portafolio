@@ -18,9 +18,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. What would you do if you had
-              a software expert available at your fingertips?
+              I am passionate about building great software that improves the
+              lives of those around me. Besides software development, I
+              am a science enthusiast, particularly astronomy.
             </p>
           </div>
         </div>
